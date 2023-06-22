@@ -70,6 +70,7 @@ class _CadastroAnimalState extends State<CadastroAnimal> {
                     onSaved: (value) {
                       _Animal = value!.toString();
                     },
+                    style: TextStyle(color: Colors.white),
                   ),
                   const SizedBox(height: 16.0),
                   TextFormField(
@@ -85,6 +86,7 @@ class _CadastroAnimalState extends State<CadastroAnimal> {
                     onSaved: (value) {
                       _Raca = value!.toString();
                     },
+                    style: TextStyle(color: Colors.white),
                   ),
                   const SizedBox(height: 16.0),
                   TextFormField(
@@ -100,6 +102,7 @@ class _CadastroAnimalState extends State<CadastroAnimal> {
                     onSaved: (value) {
                       _Idade = value!.toString();
                     },
+                    style: TextStyle(color: Colors.white),
                   ),
                   const SizedBox(height: 16.0),
                   TextFormField(
@@ -115,6 +118,7 @@ class _CadastroAnimalState extends State<CadastroAnimal> {
                     onSaved: (value) {
                       _Nome = value!.toString();
                     },
+                    style: TextStyle(color: Colors.white),
                   ),
                   const SizedBox(height: 16.0),
                   TextFormField(
@@ -130,6 +134,7 @@ class _CadastroAnimalState extends State<CadastroAnimal> {
                     onSaved: (value) {
                       _Animal = value!.toString();
                     },
+                    style: TextStyle(color: Colors.white),
                   ),
                   const SizedBox(height: 16.0),
                   ElevatedButton(
